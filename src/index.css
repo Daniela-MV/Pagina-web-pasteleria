@@ -1,0 +1,16 @@
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container{
+    background-color: rgba(43, 5, 11, 0.856);
+    color: white
+}
+
+.text-center m-0{
+    
+}

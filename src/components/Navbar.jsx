@@ -1,17 +1,27 @@
-import { Link } from "react-router-dom";
+import React from "react";
+
 
 export const Navbar = () => {
 
 	return (
-		<nav className="navbar navbar-light bg-light">
-			<div className="container">
-				<img src=".../Imagenes/Logo CM.jpeg" alt="Logo Casa Marquesa" />
-				<div className="ml-auto">
-					<Link to="/demo">
-						<button className="btn btn-primary">Check the Context in action</button>
-					</Link>
-				</div>
-			</div>
-		</nav>
+		<div className="container">
+			<a className="navbar-brand" href="#">
+				<img src="src/assets/img/imagenes/Logo CM.jpeg" alt="Logo Casa Marquesa" width={"150px"} />
+			</a>
+
+			<ul className="nav justify-content-end">
+				<li className="nav-item">
+					<a className="nav-link" href="#">Nosotros</a>
+				</li>
+				<li className="nav-item">
+					<a className="nav-link" href="#">Menú</a>
+				</li>
+				<li className="nav-item">
+					<a className="nav-link" href="#">Cotizaciones</a>
+				</li>
+			</ul>
+		</div>
+
+
 	);
 };
