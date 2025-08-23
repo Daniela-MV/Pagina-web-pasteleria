@@ -8,35 +8,40 @@ export const Home = () => {
 
 			{/* Pastelería */}
 
-			<div className="carouselBakery">
-				<div className="bakery">
-					<div className="bakeryImage">
-						<img src="src/assets/img/imagenes/pastel_pag_principal.jpeg" className="d-block w-100" alt="pastel página principal" />
-						<div class="carousel-caption d-none d-md-block">
-							<h5>First slide label</h5>
-							<p>Some representative placeholder content for the first slide.</p>
-						</div>
+			<div id="bakeryCarousel" className="carousel slide">
+				<div className="carousel-indicators">
+					<button type="button" data-bs-target="#bakeryCarousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#bakeryCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#bakeryCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div className="carousel-inner">
+					<div className="carousel-item active">
+						<img src="src/assets/img/imagenes/pastel_pag_principal.jpeg" className="d-block w-100" alt="pastel página principal"/>
+							<div className="carousel-caption d-none d-md-block">
+								<h5>First slide label</h5>
+								<p>Some representative placeholder content for the first slide.</p>
+							</div>
 					</div>
-					<div className="bakeryImage">
-						<img src="src/assets/img/imagenes/chocolateFresas.jpeg" className="d-block w-100" alt="Café y croasant" />
-						<div class="carousel-caption d-none d-md-block">
-							<h5>First slide label</h5>
-							<p>Some representative placeholder content for the first slide.</p>
-						</div>
+					<div className="carousel-item">
+						<img src="src/assets/img/imagenes/chocolateFresas.jpeg" className="d-block w-100" alt="..."/>
+							<div className="carousel-caption d-none d-md-block">
+								<h5>Second slide label</h5>
+								<p>Some representative placeholder content for the second slide.</p>
+							</div>
 					</div>
-					<div className="bakeryImage">
-						<img src="..." className="d-block w-100" alt="..." />
-						<div class="carousel-caption d-none d-md-block">
-							<h5>First slide label</h5>
-							<p>Some representative placeholder content for the first slide.</p>
-						</div>
+					<div className="carousel-item">
+						<img src="src/assets/img/imagenes/tiramisu.jpeg" className="d-block w-100" alt="..."/>
+							<div className="carousel-caption d-none d-md-block">
+								<h5>Third slide label</h5>
+								<p>Some representative placeholder content for the third slide.</p>
+							</div>
 					</div>
 				</div>
-				<button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+				<button className="carousel-control-prev" type="button" data-bs-target="#bakeryCarousel" data-bs-slide="prev">
 					<span className="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span className="visually-hidden">Previous</span>
 				</button>
-				<button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+				<button className="carousel-control-next" type="button" data-bs-target="#bakeryCarousel" data-bs-slide="next">
 					<span className="carousel-control-next-icon" aria-hidden="true"></span>
 					<span className="visually-hidden">Next</span>
 				</button>
@@ -44,27 +49,44 @@ export const Home = () => {
 
 			{/* Cafeteria */}
 
-			{/* <div className="carouselCafe">
-				<div className="cafe">
-					<div className="firstImageCafe">
-						<img src="src/assets/img/imagenes/cafe_croasant.jpg" className="d-block w-100" alt="croasant y café" />
+			<div id="cafeCarousel" className="carousel slide">
+				<div className="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				</div>
+				<div className="carousel-inner">
+					<div className="carousel-item active">
+						<img src="src/assets/img/imagenes/cafe_croasant.jpg" className="d-block w-100" alt="pastel página principal"/>
+							<div className="carousel-caption d-none d-md-block">
+								<h5>First slide label</h5>
+								<p>Some representative placeholder content for the first slide.</p>
+							</div>
 					</div>
-					<div className="secondImageCafe">
-						<img src="src/assets/img/imagenes/cafe_baguete.jpg" className="d-block w-100" alt="..." />
+					<div className="carousel-item">
+						<img src="src/assets/img/imagenes/frenteCafeteria.jpeg" className="d-block w-100" alt="..."/>
+							<div className="carousel-caption d-none d-md-block">
+								<h5>Second slide label</h5>
+								<p>Some representative placeholder content for the second slide.</p>
+							</div>
 					</div>
-					<div className="thirdImageCafe">
-						<img src="..." className="d-block w-100" alt="..." />
+					<div className="carousel-item">
+						<img src="src/assets/img/imagenes/cafe_baguete.jpg" className="d-block w-100" alt="..."/>
+							<div className="carousel-caption d-none d-md-block">
+								<h5>Third slide label</h5>
+								<p>Some representative placeholder content for the third slide.</p>
+							</div>
 					</div>
 				</div>
-				<button className="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+				<button className="carousel-control-prev" type="button" data-bs-target="#cafeCarousel" data-bs-slide="prev">
 					<span className="carousel-control-prev-icon" aria-hidden="true"></span>
 					<span className="visually-hidden">Previous</span>
 				</button>
-				<button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+				<button className="carousel-control-next" type="button" data-bs-target="#cafeCarousel" data-bs-slide="next">
 					<span className="carousel-control-next-icon" aria-hidden="true"></span>
 					<span className="visually-hidden">Next</span>
 				</button>
-			</div> */}
+			</div>
 
 
 		</div>
