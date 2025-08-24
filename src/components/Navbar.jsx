@@ -18,7 +18,7 @@ export const Navbar = () => {
 						<a className="nav-link" href="#">Menú</a>
 					</li>
 					<li className="nav-item">
-						<a className="nav-link" href="#">Cotizaciones</a>
+						<a className="nav-link" href="#">Galeria de fotos</a>
 					</li>
 				</ul>
 			</div>
