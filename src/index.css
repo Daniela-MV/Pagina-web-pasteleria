@@ -40,17 +40,24 @@ html, body{
 }
 
 .carousel-item img {
-  opacity: 0.7;
+  opacity: 0.5;
+  background-size: contain;
 }
 
 .carousel-caption h5{
   font-size: 40px;
-  color: black;
+  color: rgb(80, 49, 33);
+  margin-bottom: 10%;
 }
 
 .carousel-caption p{
   font-size: 30px;
-  color: black;
+  color:rgb(105, 65, 44);
+  margin-bottom: 50%;
+}
+
+.carousel-control-prev{
+  color: rgb(105, 65, 44);
 }
 
 #footerWeb{
