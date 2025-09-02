@@ -65,3 +65,12 @@ html, body{
    height: 300px;
 }
 
+.mainContainer{
+  display:flex;
+  justify-content:space-around;
+  text-align: start;
+}
+
+.dataBakery{
+  width: 50%;
+}
