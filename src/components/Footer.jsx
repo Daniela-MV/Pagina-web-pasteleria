@@ -7,14 +7,16 @@ export const Footer = () => (
 				<br />
 				<p><b>Horarios de atención:</b> L-V de 7:30 am - 20:00 pm y Sábado de 8:30am - 18:30pm </p>
 				<br />
-				<p><i class="fa-solid fa-phone-flip"></i> 4426071353</p>
+				<p><i class="bi bi-telephone-fill"></i> 4426071353</p>
 				<br />
 				<p><i class="fa-solid fa-envelope"></i> casamarquesa@gmail.com</p>
 			</div>
 			<div className="socialMedia">
 				<p><b>Búcanos en nuestras redes como:</b></p>
 				<br />
-				<p></p>
+				<p><i class="bi bi-facebook"></i> Casa Marquesa</p>
+				<p><i class="bi bi-instagram"></i> casamarquesamx</p>
+				<p><i class="bi bi-tiktok"></i> casamarquesamex</p>
 
 			</div>
 		</div>

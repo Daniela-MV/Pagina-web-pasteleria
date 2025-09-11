@@ -42,6 +42,7 @@ html, body{
 .carousel-item img {
   opacity: 0.5;
   background-size: contain;
+  
 }
 
 .carousel-caption h5{
@@ -53,8 +54,14 @@ html, body{
 .carousel-caption p{
   font-size: 30px;
   color:rgb(105, 65, 44);
-  margin-bottom: 50%;
+  padding-bottom: 50%; 
 }
+
+/* .carousel-caption{
+  display: flex;
+  justify-content:
+
+} */
 
 .carousel-control-prev{
   color: rgb(105, 65, 44);
@@ -73,4 +80,8 @@ html, body{
 
 .dataBakery{
   width: 50%;
+}
+
+.mainContainer{
+  color:white;
 }

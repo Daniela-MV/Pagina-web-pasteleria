@@ -20,7 +20,9 @@ export const Home = () => {
 								<h5>PASTELERÍA</h5>
 								<p>En Casa Marquesa transformamos tus ideas en pasteles personalizados que deslumbran por fuera
 									y conquistan por dentro.
+								<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
 								</p>
+							
 							</div>
 						</div>
 						<div className="carousel-item">
@@ -28,6 +30,7 @@ export const Home = () => {
 							<div className="carousel-caption d-none d-md-block">
 								<h5>PASTELERÍA</h5>
 								<p>Cada pastel está hecho con dedicación, pensado especialmente para tí.</p>
+								<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
 							</div>
 						</div>
 						<div className="carousel-item">
@@ -37,6 +40,7 @@ export const Home = () => {
 								<p>Desde la elección del sabor hasta los detalles decorativos, cada pastel está pensado para emocionar, sorprender y dejar huella 
 									en quienes lo disfrutan.
 								</p>
+								<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
 							</div>
 						</div>
 					</div>
@@ -64,21 +68,24 @@ export const Home = () => {
 							<img src="src/assets/img/imagenes/cafe_croasant.jpg" className="d-block w-100" alt="Café y croasant" />
 							<div className="carousel-caption d-none d-md-block">
 								<h5>CAFETERÍA</h5>
-								<p>Some representative placeholder content for the first slide.</p>
+								<p>Deléitate con nuesto café y un delicioso postre</p>
+								<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
 							</div>
 						</div>
 						<div className="carousel-item">
 							<img src="src/assets/img/imagenes/mostradorCafe.jpg" className="d-block w-100" alt="Cafetería Casa Marquesa" />
 							<div className="carousel-caption d-none d-md-block">
 								<h5>CAFETERÍA</h5>
-								<p>Some representative placeholder content for the second slide.</p>
+								<p>Para tí que te gusta lo salado también tenemos nuestras deliciosas chapatas, croasants, pizza y más...</p>
+								<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
 							</div>
 						</div>
 						<div className="carousel-item">
 							<img src="src/assets/img/imagenes/cafe_baguete.jpg" className="d-block w-100" alt="Café americano y Baguette" />
 							<div className="carousel-caption d-none d-md-block">
 								<h5>CAFETERÍA</h5>
-								<p>Some representative placeholder content for the third slide.</p>
+								<p>Nuestros sabores inigualables te dejarán con un gran sabor de boca</p>
+								<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
 							</div>
 						</div>
 					</div>
