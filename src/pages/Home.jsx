@@ -29,8 +29,10 @@ export const Home = () => {
 							<img src="src/assets/img/imagenes/chocolateFresas.jpeg" className="d-block w-100" alt="Pastel de chocolate con frutos rojos" />
 							<div className="carousel-caption d-none d-md-block">
 								<h5>PASTELERÍA</h5>
-								<p>Cada pastel está hecho con dedicación, pensado especialmente para tí.</p>
-								<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
+								<p>Cada pastel está hecho con dedicación, pensado especialmente para tí.
+									<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
+								</p>
+								
 							</div>
 						</div>
 						<div className="carousel-item">
@@ -39,8 +41,9 @@ export const Home = () => {
 								<h5>PASTELERÍA</h5>
 								<p>Desde la elección del sabor hasta los detalles decorativos, cada pastel está pensado para emocionar, sorprender y dejar huella 
 									en quienes lo disfrutan.
+									<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
 								</p>
-								<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
+								
 							</div>
 						</div>
 					</div>
@@ -66,26 +69,32 @@ export const Home = () => {
 					<div className="carousel-inner">
 						<div className="carousel-item active">
 							<img src="src/assets/img/imagenes/cafe_croasant.jpg" className="d-block w-100" alt="Café y croasant" />
-							<div className="carousel-caption d-none d-md-block">
+							<div className="carousel-caption d-none d-md-block" id="coffeeWords">
 								<h5>CAFETERÍA</h5>
-								<p>Deléitate con nuesto café y un delicioso postre</p>
-								<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
+								<p>Deléitate con nuesto café y un delicioso postre
+									<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
+								</p>
+								
 							</div>
 						</div>
 						<div className="carousel-item">
 							<img src="src/assets/img/imagenes/mostradorCafe.jpg" className="d-block w-100" alt="Cafetería Casa Marquesa" />
-							<div className="carousel-caption d-none d-md-block">
+							<div className="carousel-caption d-none d-md-block" id="coffeWordsTwo">
 								<h5>CAFETERÍA</h5>
-								<p>Para tí que te gusta lo salado también tenemos nuestras deliciosas chapatas, croasants, pizza y más...</p>
-								<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
+								<p>Para tí que te gusta lo salado también tenemos nuestras deliciosas chapatas, croasants, pizza y más...
+									<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
+								</p>
+								
 							</div>
 						</div>
 						<div className="carousel-item">
 							<img src="src/assets/img/imagenes/cafe_baguete.jpg" className="d-block w-100" alt="Café americano y Baguette" />
-							<div className="carousel-caption d-none d-md-block">
+							<div className="carousel-caption d-none d-md-block" id="coffeeWordsThree">
 								<h5>CAFETERÍA</h5>
-								<p>Nuestros sabores inigualables te dejarán con un gran sabor de boca</p>
-								<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
+								<p>Nuestros sabores inigualables te dejarán con un gran sabor de boca
+									<button type="button" className="btn btn-warning bg-warning-subtle fs-5">Conoce más aquí</button>
+								</p>
+								
 							</div>
 						</div>
 					</div>

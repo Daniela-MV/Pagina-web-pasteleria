@@ -1,6 +1,6 @@
 html, body{
   height: 100%;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:"Montserrat", sans-serif;
 }
 
 .big-container{
@@ -54,14 +54,42 @@ html, body{
 .carousel-caption p{
   font-size: 30px;
   color:rgb(105, 65, 44);
-  padding-bottom: 50%; 
+  padding-bottom: 55%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* .carousel-caption{
-  display: flex;
-  justify-content:
+.carousel-caption button{
+  width: 200px;
+}
 
-} */
+#coffeeWords p{
+  font-size: 30px;
+  color:rgb(105, 65, 44);
+  padding-bottom: 30%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#coffeeWordsTwo p{
+  font-size: 30px;
+  color:rgb(105, 65, 44);
+  padding-bottom: 30%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#coffeeWordsThree p{
+  font-size: 30px;
+  color:rgb(105, 65, 44);
+  padding-bottom: 30%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .carousel-control-prev{
   color: rgb(105, 65, 44);
